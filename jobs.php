@@ -1,0 +1,88 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	
+	<title>Art City Music and Dance Academy | Job Application</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+
+<?php include("header.php") ?>
+
+	
+	<div id="main" style="height: 100%;">
+			
+<h1>Thank you for your interest in teaching at our school.</h1>
+
+<br /><br /><h2>We currently have openings for the following positions:</h2>
+<br />
+<!--<h3>Preparatory Music Class Instructor</h3>-->
+<h3>Private Piano Instructor</h3>
+<h3>Private Voice Instructor</h3>
+<h3>Private Violin Instructor</h3>
+<h3>Private Guitar Instructor</h3>
+<br />
+<h2>We are always looking for great teachers, so feel free to apply even if we don't have an opening in your area.</h2>
+<br />
+<br />
+<p>Here is some information about the Academy which should give you an idea of our philosophy and how we strive to best meet the needs of our students and teachers.  If you wish to apply, please print or download an application using the link below, then fax, mail or email a cover letter, resume and completed application to:</p>
+<p>Fax: (801) 489-8027</p>
+<p>Art City Music and Dance Academy<br />
+705 North Main St.<br />
+Springville, UT  84663</p>
+<p>Email: jobs@artcitymusic.com</p>
+<p><strong>No Phone Calls Please.</strong> Only suitable candidates will be contacted for an interview.</p>
+<a href="/files/music-application.pdf" target="_blank">Download Music Instructor Application &raquo;</a><br /><br />
+<a href="/files/dance-application.pdf" target="_blank">Download Dance Instructor Application &raquo;</a><br /><br />
+<a href="/files/office-application.pdf" target="_blank">Download Office Staff Application &raquo;</a><br />
+
+<p style="margin-top: 50px;">
+<h3>School Background</h3>
+<blockquote>The Art City Music and Dance Academy was founded over 25 years ago and has locations in Springville, Orem and American Fork. Since the beginning our goal has been to create the ideal learning environment for our students and the ideal teaching environment for our instructors. We have four main areas of expertise: We have the finest preparatory music program in the world for children ages 6 months to 10 years, we offer comprehensive private music instruction for many instruments to both children and adults, we offer recreational piano and guitar classes for adults, and we offer classes in many different styles of dance. We have brought the finest educational programs available to thousands of happy familes in our community.</blockquote> 
+</p>
+<br />
+<p>
+<h3>Teacher Qualifications</h3>
+<blockquote>
+<strong>All positions</strong> require a positive attitude, a strong work ethic, the highest standards of honesty and integrity, a genuine love of teaching, and a real desire to make a positive difference in other people's lives. University/College training and teaching experience are a big plus.  However, we will sometimes bring on promising young teachers with great natural ability and help them develop themselves and realize their potential. Our teachers must be available for a minimum of three days a week (generally in the afternoon, but flexible during the summer) but more hours are an option if desired. Consistency is important to our students, so we are interested in long-term, Win-Win relationships with our faculty.  We rarely hire teachers who are available for less than two years.
+</blockquote>
+<br />
+<blockquote><strong>Preparatory Music Program</strong> &mdash; These classes are taught in a group setting and students come with an adult companion. The preschool classes for children up to about age four are generally taught in the morning. Teachers of these classes must have proficient piano skills, a good singing voice and an aptitude for working with young children in a group setting. Our afternoon classes teach students ages five to ten how to read music and play the piano. Teachers of these classes must have strong piano skills, a comfortable singing voice, and good classroom management abilities. Most of our instructors in this program have music degrees or a very high level of equivalent experience.</blockquote>
+<br />
+<blockquote><strong>Private Music Program</strong> &mdash; Teachers in our private music program have attained an extremely high level of mastery of their instrument, have a strong teaching background, and preferably, are university/college/conservatory trained.</blockquote>
+<br />
+<blockquote><strong>Adult Program</strong> &mdash;Teachers in our adult program have very strong skills with their instrument, teaching experience, love to have fun, and preferably, are university/college/conservatory trained..</blockquote>
+<br />
+<blockquote><strong>Dance Program</strong> &mdash; Teachers in our dance program have attained a high level of mastery in their style(s), have a strong teaching background, and preferably, are university/college/conservatory trained.</blockquote>
+</p>
+<br />
+<p>
+<h3>Why teach with us?</h3>
+
+<blockquote><strong>As a music teacher</strong> you have the option of teaching on your own in a home (either yours or your students') or at a music store or school.  The nice thing about teaching on your own is that you have very little overhead (rent, utilities, insurance, advertising, administrative costs, etc.) and can keep all of the money that you charge for lessons.  The downside is that it takes time and can be difficult to collect payments, enforce your policies, keep your schedule full, attract strong students, and create and manage a program in which your students can really thrive.  Since you are not paid for this time, your true hourly wage ends up being less than you might think.  The problem becomes even worse if you are travelling to students' homes.  In addition, the tax consequences of being self-employed can make your take-home pay less than what you had expected.</blockquote>
+<br />
+<blockquote>The downside of working at a school is that a percentage of the tuition goes towards overhead, so you generally earn less per student. However, this drawback is frequently overcome by having a consistently full schedule of students. Even though you will probably earn less per student, you will likely make more overall.  In addition, there is a whole world of administrative headaches that you don't have to deal with. Our office staff handles collections, policy issues, and other potential frustrations and time-wasters so you can focus on the important business of teaching.  Furthermore, you get paid even if a student doesn't show up for a lesson. Finally, our professional learning environment and comprehensive program attract a high caliber of student and support and encourage their development and progress.</blockquote>
+<br />
+<blockquote><strong>Our dance teachers</strong> enjoy many of the same benefits of our music teachers.  In addition, our teachers love working at our school because of our smaller class sizes which increase teacher and student progress and enjoyment, full-time administrative support which allows teachers to concentrate on their teaching, and our professional floating marley dance floor which reduces fatigue and helps prevent injury.</blockquote>
+</p>
+<br />
+<p>
+<h3>Final Things to Consider</h3>
+
+<blockquote>If you think working at a school may be the way to go, there are some very important things to consider when deciding where to apply.</blockquote>
+<br />
+<blockquote><strong>First</strong>, are you being hired as an <em>employee</em> or as a <em>contractor</em>? This simple distinction has some dramatic consequences.  Contractors are in business for themselves and have significant tax burdens that employees do not.  Contractors pay a self-employment tax of about 15% in addition to the regular income tax and can be required to pay quarterly estimated tax payments to avoid penalties from the IRS.  Preparing a tax return is more complicated for a contractor and they frequently owe money on tax day.  The self-employed must also have a business license and carry Worker's Compensation insurance to protect themselves in the event of injury. None of this is necessary for employees as the company handles all of these issues. You can learn a lot about how a school respects it's people by how it hires them. Needless to say, we respect our faculty and staff and hire them as employees, not contractors.</blockquote>
+<br />
+<blockquote><strong>Second</strong>, are they a real school, or are they just a <q><em>temp agency</em></q> for music and dance teachers. There are two clues to look for here: Number One, do they have a comprehensive program and/or curriculum in place; Number Two, do they require teachers to get their own students.  Our program and curriculum are world class, and we invest about $30,000 a year in advertising which creates a steady stream of students into the school.</blockquote>
+</p>
+	
+	</div>
+	<!-- end main -->
+	
+<?php include("aside.php") ?>
+
+<?php include("footer.php") ?>
+

@@ -1,0 +1,330 @@
+/* HTML5 ? Boilerplate */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:12px sans-serif; *font-size:small; }
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 0; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; } 
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+body, select, input, textarea { color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, a:active, a:visited { color: #a41e21; }
+a:hover { color: #6a1214; }
+
+
+/**
+ * Primary styles
+ *
+ * Author: Russell Jack
+ *         http://www.russelljack.com
+ *
+ */
+
+
+body {background: url(../images/bg-body.jpg) repeat-x top center;}
+#wrapperbottom {background: url(../images/bg-wrapperbottom.jpg) repeat-x bottom center; overflow: hidden; padding-bottom: 20px;}
+
+@font-face {
+	font-family: dellarob;
+	src: url('DellaRobBTRom.ttf');
+}
+b {font-weight: bold;}
+
+.nice {font-family: 'dellarob', serif;}
+
+
+#wrapper {width: 940px; margin: 10px auto 0; padding-bottom: 30px; }
+
+#header h1 {float: left; display: inline;}
+.logo {
+	background: url(../images/acma-logo.png) top left no-repeat;
+	display: block;
+	width: 155px;
+	height: 156px;
+	text-indent: -9999px;
+}
+#header {color: #000000; overflow: hidden; margin-bottom: 10px;}
+#header .headercontent {overflow: hidden; margin-bottom: 5px;}
+#header .headline {font-size: 18px; text-shadow: 0 1px #ffffff; display: block; float: left; margin: 28px 0 0 80px;}
+#header .number {float: right; letter-spacing: -1px; text-shadow: 0 1px #ffffff; margin-top: 8px; background: url(../images/icon-phone.png) top left no-repeat; padding-left: 60px;}
+#header .number .line1 {font-size: 24px; display: block;}
+#header .number .line2 {font-size: 32px; line-height: 30px;}
+
+#nav {float: left; margin: 22px 0 0 0;}
+#nav li {float: left; list-style: none; margin-left: 25px; font-family: 'dellarob', serif; font-size: 19px;}
+#nav a:link, #nav a:visited {color: white; text-decoration: none;  }
+#nav a:hover {text-decoration: underline;}
+
+#main {
+	clear: both;
+	float: left;
+	width: 620px;
+}
+
+#main h1 {font-family: "dellarob", serif; font-size: 48px; text-shadow: 0 1px #ffffff; margin: 4px 0;}
+#main h2 {font-family: "dellarob", serif; font-size: 22px; text-shadow: 0 1px #ffffff;}
+#main p {line-height: 1.4em; margin-bottom: 15px;}
+#main .calendar { background: url(/images/bg-calendar.png) top left no-repeat; padding: 3px 0 2px 30px; }
+#main .classthumb {float: left; margin-right: 10px; clear: left;}
+#main .private div {overflow: hidden; margin: 0 0 20px 0; width: 300px;}
+#main .private div img {vertical-align: middle;}
+#main .private div h1 {font-size: 36px; margin-top: 17px;}
+#main .left {float: left;}
+#main .right {float: right;}
+
+#main h3 { font-size: 16px; margin: 10px 0; }
+#main .slideouts {margin-top: 40px; clear: both;}
+#main .slideouts h3:hover {text-decoration: underline; font-weight: bold; cursor: pointer;}
+#main .slideout {display: none; margin: 0 20px;}
+#main .slideout li {margin: 10px 0;}
+#main .breadcrumbs {margin-bottom: 20px;}
+
+#main .testimonial {
+	background: url(/images/bg-testimonial.png) top left no-repeat;
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 35px;
+	margin: 30px 70px 20px 0;
+}
+#main .testimonial p {margin-bottom: 0;}
+#main .testimonial .testimonialname {
+	font-style: normal;	
+	margin-left: 20px;
+	color: #444444;
+}
+
+#main .adultimg {float: left; clear: both; margin-right: 15px;}
+#main .clear {clear: both; overflow: hidden; margin-top: 15px;}
+
+#main.schedule h2 .ages{font-size: 13px; font-family: "Arial", sans-serif; margin-bottom: 2px;}
+#main.schedule h2 img {vertical-align: text-bottom;}
+#main table {margin: 6px 0 40px;}
+#main table td {width: 110px; padding: 7px; text-align: center; border: 1px solid black; vertical-align: middle;}
+#main table .location {background: #afafaf; color: black; text-shadow: 0 1px #e1e1e1; font-size: 13px; font-weight: bold;}
+#main table .series {background: #e1e1e1; text-shadow: 0 1px #ffffff; font-size: 13px; font-weight: bold;}
+#main table .series small {font-weight: normal;}
+#main table .blank {border: none;}
+#main table.dance td {width: 250px;}
+
+.enrollment {margin-top: 50px; border: 1px solid #d7d7d7; padding: 20px;}
+.enrollment h3 {font-family: "dellarob", serif; font-size: 20px;}
+.or {display: block; margin: 10px 5px;}
+.enrollment label {display: block;}
+.enrollment input[type="text"] {display: block; margin-bottom: 12px; width: 250px; border: 1px solid #B3B3B3; padding: 4px 3px 2px;}
+.enrollment .submitbutton{
+	display: block;
+	font-family: "dellarob", serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	background: none repeat scroll 0 0 #A41E21;
+    border: 1px solid #3D0B0C;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    padding: 5px 8px 3px;
+    margin-top: 20px;
+}
+.enrollment select {padding: 3px 0;}
+.enrollment .req {color: red;}
+
+.contactform {margin-top: 20px; border: 1px solid #d7d7d7; padding: 20px;}
+.contactform h3 {font-family: "dellarob", serif; font-size: 20px;}
+.or {display: block; margin: 10px 5px;}
+.contactform label {display: block;}
+.contactform input[type="text"], .contactform textarea {display: block; margin-bottom: 12px; width: 250px; border: 1px solid #B3B3B3; padding: 4px 3px 2px;}
+.contactform .submitbutton{
+	display: block;
+	font-family: "dellarob", serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	background: none repeat scroll 0 0 #A41E21;
+    border: 1px solid #3D0B0C;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    padding: 5px 8px 3px;
+    margin-top: 20px;
+}
+.contactform select {padding: 3px 0;}
+.contactform .req {color: red;}
+
+
+#aside {
+	width: 300px;
+	float: right;
+}
+
+#aside .box {
+	background: rgba(255, 255, 255, .7);
+	padding: 10px;
+	border: 1px solid #d7d7d7;
+	margin-bottom: 10px;
+}
+#aside .box h3 {font-size: 22px; border-bottom: 1px solid #000000; margin-bottom: 8px;}
+
+#aside form.schedule input[type="text"] {
+	border: 1px solid #b3b3b3;
+	width: 190px;
+	padding: 4px 3px 2px;
+	color: #999999;
+	font-style: italic;
+}
+#aside form.schedule .submitbutton {
+	color: white;
+	background: #a41e21;
+	border: 1px solid #3d0b0c;
+	padding: 3px 5px 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+#aside p {overflow: hidden; line-height: 1.3em;}
+#aside .ribbon {float: left; margin: 0 15px 0 0;}
+#aside .thumb {float: left; clear: left; margin: 0 5px 15px 0;}
+#aside .testimonials p {margin-bottom: 10px;}
+.testimonial {display: block; font-style: italic; font-size: 11px; color: #5e5e5e; line-height: 1.2em; margin-bottom: 3px;}
+
+
+#footerwrap{
+	background: #000000 url(../images/bg-footer.jpg) repeat-x;
+	overflow: hidden;
+	padding: 30px 0;
+	clear: both;
+}
+#footer {
+	width: 940px;
+	margin: 0 auto;
+}
+#footer .footercol {
+	float: left;
+	margin-left: 95px;
+}
+#footer li {
+	list-style: none; 
+	margin: 10px 0;
+}
+#footer a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+#footer a:visited {
+	color: #e1e1e1;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#footer .footerhead {font-size: 14px; font-weight: bold;}
+#footer ul {margin-top: 20px;}
+
+#bottom {width: 940px; margin: 10px auto;}
+
+
+
+
+
+
+/* iphone styles */
+@media screen and (max-device-width: 480px) {
+  
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } 
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+
+
+
+/* styling of the container. */
+a.myPlayer {
+	display:block;
+	width: 290px;
+	height:218px; 
+	text-align:center;
+	margin:0 15px 15px 0;
+	float:left;
+	border:1px solid #999;
+    background-size: 290px 218px;
+}
+
+/* play button */
+a.myPlayer img {
+    margin-top:10px;
+    margin-left:-230px;
+    border:0px;
+    width:50px;
+    height:50px;
+}
+
+/* when container is hovered we alter the border color */
+a.myPlayer:hover {
+	border:1px solid #000;
+}
